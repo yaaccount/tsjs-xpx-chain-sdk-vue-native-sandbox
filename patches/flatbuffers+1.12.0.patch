@@ -1,0 +1,14 @@
+diff --git a/node_modules/flatbuffers/js/flatbuffers.js b/node_modules/flatbuffers/js/flatbuffers.js
+index 74cd35a..31edc85 100644
+--- a/node_modules/flatbuffers/js/flatbuffers.js
++++ b/node_modules/flatbuffers/js/flatbuffers.js
+@@ -1253,7 +1253,7 @@ flatbuffers.ByteBuffer.prototype.createLong = function(low, high) {
+ };
+ 
+ // Exports for Node.js and RequireJS
+-this.flatbuffers = flatbuffers;
+-
++// this.flatbuffers = flatbuffers;
++export { flatbuffers };
+ /// @endcond
+ /// @}
