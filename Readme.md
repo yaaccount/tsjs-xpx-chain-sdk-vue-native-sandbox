@@ -4,21 +4,22 @@ It is not a trivial procedure to setup a crypto javascript project working withi
 
 # PREREQUISITIES
 
-I worked on my mac, I don't know what tools are essential for the procedure to work. Those are the obvious ones:
+I worked on my mac (tested also with ubuntu + real android device), I don't know what tools are essential for the procedure to work. Those are the obvious ones:
 
-* Xcode
+* Xcode / android-sdk
 * Node + npm
   * My favourite setup is with ```nvm``` (node version manager) installed through ```brew``` - that way you can easily switch between different ```node``` versions - and install node using ```nvm```
   * I have v10.17.0 at the moment
 * vue native - https://vue-native.io/docs/installation.html
 * reactive native - https://reactnative.dev/docs/environment-setup (no expo)
 
-# INSTALATION from github using this repository
+# INSTALLATION from github using this repository
 
     $ git clone https://github.com/yaaccount/tsjs-xpx-chain-sdk-vue-native-sandbox.git
     $ cd tsjs-xpx-chain-sdk-vue-native-sandbox
     $ npm i
     $ react-native run-ios
+    $ react-native run-android
 
 # INSTALLATION step by step from scratch #
 
